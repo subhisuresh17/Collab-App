@@ -13,6 +13,7 @@
     </parent>
     <groupId>pro.collab</groupId>
     <artifactId>ProCollab</artifactId>
+	  <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>Pro-Collab</name>
     <description>Spring Boot application for Project management</description>
@@ -154,8 +155,6 @@
     </dependencies>
 
     <build>
-
-	    <finalName>pro-collab</finalName>
         <plugins>
 		
             <plugin>
