@@ -3,16 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-	 <build>
-        <finalName>pro-collab</finalName> <!-- Specify your desired WAR file name here -->
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <!-- Other plugins -->
-        </plugins>
-    </build>
+	
 	
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -163,7 +154,10 @@
     </dependencies>
 
     <build>
+
+	    <finalName>pro-collab</finalName>
         <plugins>
+		
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
